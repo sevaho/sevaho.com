@@ -1,0 +1,217 @@
+@import url(//fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(//fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+html, body { height: 100%; width: 100%; font-family: 'Roboto', Helvetica, Arial, sans-serif; color: #757575; padding-top: 500px;}
+img { max-width: 100%;}
+
+a:link, a:visited { outline: 0;}
+a:hover, a:active { text-decoration: none;}
+h1, h2, h3, h4, h5, h6 { font-family: 'Exo', sans-serif;  font-weight: 700;}
+h2 { font-size: 1.3em;}
+
+/*NAVBAR*/
+.navbar { width: 100%;}
+.navbar-default { background: white;  border: none;  color: #777;  text-transform: uppercase;  display: inline-block;
+    text-align: right;  position: relative;  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);}
+.navbar-nav {    background: white; margin: 0 auto; padding: 0; list-style: none; display: inline-block; float: none; font-size: 1em; font-weight: bold;}
+.navbar-default .navbar-nav > li > a {  font-size: 14px; font-weight: 400;  color: #5e8ba9;}
+.navbar-default .navbar-nav > li > a:hover { color: #194c6d;}
+.navbar-default .navbar-nav > li > a:focus {color: #5e8ba9; background-color: transparent;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { color: #194c6d;
+    background: none;}
+#page-nav { height: 0px;}
+/*NAVBAR FIXED NAVBAR*/
+.main-nav-scrolled { position: fixed; top: 0; width: 100%;}
+.fixed-nav { padding-left: 10%; background: white; box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2); z-index: 150; margin-bottom: -80px;}
+#fixed-menu-right {  padding-right: 10%;}
+/*NAVBAR MOBILE*/
+.menu{ display: none;}
+
+/*MAIN*/
+.main { position: relative;}
+
+/*PAGE WELCOME*/
+/*PAGE WELCOME HEADER*/
+#page-welcome { width: 100%; height: 100%; position: fixed; overflow: hidden; text-align: center;  -webkit-background-size: cover;
+    -moz-background-size: cover;  -o-background-size: cover; background-size: cover; background-image: url('../img/bb.jpg '); top: 0;}
+#page-welcome header { color: #f2f2f2; position: absolute; top: 55%; left: 59%; transform: translate(-50%, -50%);}
+.header1 .grotes { position: relative; color: #666F92; font-family: 'Exo', sans-serif; font-size: 65px; font-weight: 700;}
+.header1 p { margin-top: 10px; color: #666666; font-family: 'Exo', sans-serif; font-size: 19px; font-weight: 600;}
+#page-welcome header p { display: inline-block; margin-bottom: 5px; padding: 0 8px; letter-spacing: 0.1em; line-height: 3em; text-transform: uppercase;
+    font-size: 18px;}
+.header1 .spacer { width: 500px; height: 3px; margin-left: 9%; background-color: rgba(0, 0, 0, 0.2);}
+.header1 div span { color: #fff !important; font-size: 60px;}
+/*PAGE WELCOME ARROW*/
+#arrowdown { position: absolute; top: 95%; left:50%; transform: translate(-50%, -50%); animation-delay: 2.5s; animation-duration: 2.5s;
+    -webkit-animation-delay: 2.5s; -webkit-animation-duration: 2.5s;}
+.arrowfront:hover { -webkit-transform: scale(1.2); -moz-transform: scale(1.2); -o-transform: scale(1.2); transform: scale(1.2);
+    transition: all 0.3s; -webkit-transition: all 0.3s;}
+
+/*PAGE WHOAMI*/
+#page-whoami { padding: 4% 0; background: #fff;}
+#page-whoami .col-md-10 { font-size: 1.3em;}
+.page-whoami img { border-radius: 100%;}
+.page-whoami article { padding-top: 10%;}
+.page-whoami p { font-size: 1.1em;}
+
+/*PAGE HOBBIES*/
+#page-hobbies { padding: 4% 0; background: #f7f7f7;}
+.page-hobbies .col-md-6 { width: 49%; margin-left: 5px; margin-right: 5px; border: 3px solid rgba(0, 0, 0, 0.2); border-radius: 5em;
+    background-color: #f7f7f7;}
+.page-hobbies p { font-size: 1.1em; padding-left: 10%; padding-top: 10%;}
+.page-hobbies .col-md-4 { padding-top: 30px;}
+.page-hobbies .col-md-4 h2 { color: #96BF8C; padding-top: 30px; padding-bottom: 15px; font-family: 'Prociono', cursive;
+    font-size: 2.3em; letter-spacing: -0.015em;}
+.page-hobbies #flexslider1 {  padding-top: 5%;}
+
+/*PAGE SKILLS*/
+#page-skills{ padding: 4% 0; background: #fff;}
+.page-skills h2{ color: #96BF8C; padding-bottom: 10px; padding-top: 10px;}
+.page-skills .spacer{ margin-bottom: 16px;}
+.page-skills .row{ padding-top: 6%;}
+.listskills{  padding-bottom: 2%;}
+/*PAGE SKILLS IMAGES*/
+.page-skills img{ border-radius: 1%; margin-top: 25px;}
+.page-skills img:hover {  -webkit-transform: scale(1.02); -moz-transform: scale(1.02); -o-transform: scale(1.02); transform: scale(1.02);
+    transition: all 0.5s; -webkit-transition: all 0.5s;}
+.page-skills img{ transition: 1s;}
+
+/*PAGE CURRICULUM VITAE*/
+#page-curriculumvitae { padding: 4% 0; background: #f7f7f7; text-align: center;}
+.page-curriculumvitae .spacer{ margin-bottom: 19px;}
+.page-curriculumvitae .row{ padding-top: 3%;}
+.page-curriculumvitae h2{ color: #96BF8C; padding-bottom: 4%; padding-top: 4%;}
+#element-to-animate{ opacity: 0;}
+
+/*PAGE ITALENT*/
+#page-italent { padding: 4% 0; background: #fff;}
+.page-italent .spacer{ margin-bottom: 16px;}
+.page-italent .row{ padding-top: 3%;}
+.page-italent h2{ color: #96BF8C; padding-bottom: 10px; padding-top: 10px;}
+#italentanimated{ opacity: 0;}
+
+/*PAGE EXTRA */
+#page-extra { padding: 4% 0; background: #f7f7f7;}
+.page-extra .spacer{ margin-bottom: 19px;}
+.page-extra h2{ color: #96BF8C; padding-bottom: 4%; padding-top: 4%;}
+
+/*PAGE TRANSPARENT*/
+#page-transparent { height: 170px;}
+
+/*PAGE FOOTER*/
+#page-footer { padding: 0% 0; background: #4D4D5C;}
+#page-footer p { color: #EFEFF6; font-size: 1.2em;}
+.page-footer iframe { height: 420px; width: 400px; float: right;}
+.page-footer .footerpadding{ padding-top: 0%; }
+.page-footer .pfooter{padding-top: 10%;}
+.page-footer ul li{ display: inline;}
+/*PAGE FOOTER SOCIAL MEDIA BUTTONS*/
+.page-footer img { opacity: 0.4; padding-left: 2px;  padding-right: 2px; display: inline-block; vertical-align: middle; position: relative;
+    width: 45px;  height: 45px; border-radius: 50%; border: 2px solid dimgrey; background-clip: content-box; padding: 0px; transition: 1.5s;
+    color: #D7D0BE; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2),  0 1px 0 rgba(255, 255, 255, 0.2);}
+.buttons ul li .facebook:hover { opacity: 1; transition: all 1.5s; -webkit-transition: all 1s; color: white; transform: translateY(-1px) rotate(360deg);
+    border: 2px solid #3b5998; background-color: #3b5998; }
+.buttons ul li .github:hover { opacity: 1; transition: all 1.5s; -webkit-transition: all 1s; color: white; transform: translateY(-1px) rotate(360deg);
+    border: 2px solid #1D1C29; background-color: #1D1C29;}
+.buttons ul li .google:hover { opacity: 1; transition: all 1.5s; -webkit-transition: all 1s; color: white; transform: translateY(-1px) rotate(360deg);
+    border: 2px solid #D50F25;  background-color: #D50F25;}
+.buttons ul li .soundcloud:hover { opacity: 1; transition: all 1.5s; -webkit-transition: all 1s; color: white; transform: translateY(-1px) rotate(360deg);
+    border: 2px solid #ff7700; background-color: #ff7700;}
+
+/*SECTION UNIVERSAL AND OTHER UNIVERSAL ELEMENTS*/
+.section-header { text-align: center;}
+.section-header p { font-size: 1.5em;}
+.section-title { font-size: 3em;  font-family: 'Exo', sans-serif; font-weight: 700; letter-spacing: 2px; text-align: center; color: #555555;
+    text-transform: uppercase; padding: 20px 0;}
+.spacer { width: 120px; height: 2px; margin: auto; background-color: rgba(0, 0, 0, 0.2);}
+.section-subtitle { text-align: center; padding: 30px 0;}
+.left { float: left;}
+.right { float: right;}
+.text-center { text-align: center;}
+.centered { margin-left: auto; margin-right: auto; float: none;}
+.focused { color: #30aed6; border: #30aed6 solid 3px;}
+
+/*CONTACT FORM*/
+#inline { display: none; width: 600px;}
+label { padding-left: 8px; padding-bottom: 5px; margin-right: 12px; margin-bottom: 9px; font-family: Roboto, serif; color: #646464; font-size: 1.2em;}
+form { padding-left: 20px;}
+#1234 { padding-left: 50px;}
+.txt {  display: inline-block; color: #676767; width: 500px; font-family: Roboto, Tahoma, sans-serif; margin-bottom: 10px; border: 1px dotted #ccc;
+    border-radius: 0.22em; padding: 5px 9px; font-size: 1.2em; line-height: 1.4em;}
+.txtarea { display: block; resize: none; color: #676767; font-family: Roboto, Tahoma, sans-serif; margin-bottom: 10px; width: 500px; height: 150px;
+    border: 1px dotted #ccc; border-radius: 0.22em; padding: 5px 9px; font-size: 1.2em; line-height: 1.4em;}
+.txt:focus, .txtarea:focus { border-style: solid; border-color: #bababa; color: #444;}
+input.error, textarea.error { border-color: #973d3d; border-style: solid; background: #f0bebe; color: #a35959;}
+input.error:focus, textarea.error:focus { border-color: #973d3d; color: #a35959;}
+#buttonpadding { padding-right: 90px; padding-left: 10px; margin-left: auto; margin-right: auto; float: none;}
+#send { font-family: 'Montserrat', Arial, Helvetica, sans-serif; float: left; width: 100%; border: #fbfbfb solid 4px; cursor: pointer;
+    background-color: #3498db; color: white; font-size: 20px; padding-top: 12px; padding-bottom: 12px; -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s; transition: all 0.3s; margin-top: -4px; font-weight: 700; border-radius: 0.4em;}
+#send:hover { background-color: white; color: #0493bd;}
+#btnsluit{ margin-right: 3%; cursor: pointer;  opacity:0.7;}
+#btnsluit:hover{ opacity: 1;}
+/*CONTACT FORM CONTACT LINK IN NAVBAR*/
+#modalboxlink { color: #5e8ba9;}
+#modalboxlink:hover { color: #194c6d;}
+
+/*UNIVERSAL DELAYS*/
+.delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s;}
+.delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s;}
+
+/*MOBILE AND TABLET VERSION LESS THAN 900PX*/
+@media only screen and (max-width: 900px){
+     html, body { height: 100%; width: 100%; font-family: 'Roboto', Helvetica, Arial, sans-serif; color: #757575; padding-top: 0px;}
+
+     /*PAGE WELCOME*/
+     #page-welcome header { color: #f2f2f2; position: absolute; top: 55%; left: 50%; transform: translate(-50%, -50%);}
+ .header1 .grotes { position: relative; color: #666F92; font-family: 'Exo', sans-serif; font-size: 65px; font-weight: 700;}
+     #page-welcome { width: 100%; height: 560px;  position: relative;  overflow: hidden;  text-align: center;  -webkit-background-size: cover;
+         -moz-background-size: cover;   -o-background-size: cover;   background-size: cover;  background-image: url('../img/bb.jpg ');  top: 0;}
+     #page-welcome header p {    font-size: 1em;    line-height: 3em; }
+     #page-welcome .header1 div span {   font-size: 0.7em; }
+     #page-welcome .grotes { font-size: 2.8em; }
+     #arrowdown{  top: 90%;  }
+
+    /*PAGE WHOAMI*/
+    .page-whoami img {  width:300px; height:300px; }
+
+    /*PAGE CV*/
+    .page-curriculumvitae .col-md-6 {   width: 97%;   margin-bottom: 10px; }
+    #element-to-animate{ opacity: 1; }
+
+    /*PAGE ITALENT*/
+    #italentanimated{ opacity: 1; }
+
+    /*PAGE TRANSPARENT*/
+    #page-transparent { height: 0px;  }
+
+    /*PAGE FOOTER*/
+    .page-footer .pfooter{float: none;}
+    .page-footer iframe { height: 420px; width: 100%; float: right;}
+
+    /*UNIVERSAL ELEMENTS*/
+    .section-title {  font-size: 1.5em; }
+    .section-header p {  font-size: 1.2em; }
+
+    /*MENU*/
+    .page-nav {  display: none; }
+    .menu { display: inline; background: #4D4D5C; height: 100vh;  width: 240px; position: fixed; top: 0; left: 0; z-index: 5; outline: none;}
+    .menu ul { list-style: none; margin: 0;}
+    .menu ul li {  font-size: 0.95em;  font-weight: 700; background-repeat: no-repeat;  background-position: left 15px center;  background-size: auto 20px;
+        transition: all 0.15s linear; cursor: pointer;}
+    .menu ul li a:hover { background-color: rgba(0, 0, 0, 0.1);}
+    .menu ul li:focus { outline: none;}
+    body { padding-left: 0; }
+    .menu { width: 180px; box-shadow: 0 0 0 100em rgba(0, 0, 0, 0); transform: translate3d(-180px, 0, 0); transition: all 0.3s ease-in-out;}
+    .menu .smartphone-menu-trigger { width: 40px; height: 40px; position: absolute; left: 100%; margin-left: 15px; margin-top: 15px; border-radius: 20%;
+        cursor: pointer;}
+    .menu .smartphone-menu-trigger:before, .menu .smartphone-menu-trigger:after { cursor: pointer;}
+    .bar1, .bar2, .bar3 { width: 35px; height: 5px; background-color: #646478;  margin: 6px 0; transition: 0.4s; border-radius: 10px; }
+    .menu ul li{ padding-left: 30px; font-size: 1.42em; border-bottom: 1px solid dimgrey; text-transform: uppercase;}
+    .menu ul li:hover{ background-color: rgba(0, 0, 0, 0.1); }
+    .menu ul li a{ color: #f7f7f7; }
+    .menu ul li a #modalboxlink{ color: #f7f7f7; }
+     .menu:focus { transform: translate3d(0, 0, 0); box-shadow: 0 0 0 100em rgba(0, 0, 0, 0.6); }
+    .menu:focus .smartphone-menu-trigger { pointer-events: none; }
+    #contactblauw { color: #5e8ba9; }
+}
