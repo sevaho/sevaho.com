@@ -104,4 +104,3 @@ $(window).load(function () {
         animationDuration: 600
     });
 });
-
