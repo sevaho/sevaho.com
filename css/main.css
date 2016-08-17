@@ -33,7 +33,7 @@ h2 { font-size: 1.3em;}
 /*PAGE WELCOME*/
 /*PAGE WELCOME HEADER*/
 #page-welcome { width: 100%; height: 100%; position: fixed; overflow: hidden; text-align: center;  -webkit-background-size: cover;
-    -moz-background-size: cover;  -o-background-size: cover; background-size: cover; background-image: url('../img/a102.jpg '); top: 0; }
+    -moz-background-size: cover;  -o-background-size: cover; background-size: cover; background-image: url('../img/bb.jpg '); top: 0; }
 #page-welcome header { color: #f2f2f2; position: absolute; top: 55%; left: 59%; transform: translate(-50%, -50%);}
 .header1 .grotes { position: relative; color: #7388b2; font-family: 'Exo', sans-serif; font-size: 65px; font-weight: 700;}
 .header1 p { margin-top: 10px; color: #3b3c36; font-family: 'Exo', sans-serif; font-size: 19px; font-weight: 600;}
