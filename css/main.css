@@ -14,10 +14,10 @@ h2 { font-size: 1.3em;}
 .navbar-default { background: white;  border: none;  color: #777;  text-transform: uppercase;  display: inline-block;
     text-align: right;  position: relative;  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);}
 .navbar-nav {    background: white; margin: 0 auto; padding: 0; list-style: none; display: inline-block; float: none; font-size: 1em; font-weight: bold;}
-.navbar-default .navbar-nav > li > a {  font-size: 14px; font-weight: 400;  color: #5e8ba9;}
-.navbar-default .navbar-nav > li > a:hover { color: #194c6d;}
-.navbar-default .navbar-nav > li > a:focus {color: #5e8ba9; background-color: transparent;}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { color: #194c6d;
+.navbar-default .navbar-nav > li > a {  font-size: 14px; font-weight: 400;  color: #4997d0;}
+.navbar-default .navbar-nav > li > a:hover { color: #18405b;}
+.navbar-default .navbar-nav > li > a:focus {color: #4997d0; background-color: transparent;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { color: #18405b;
     background: none;}
 #page-nav { height: 0px;}
 /*NAVBAR FIXED NAVBAR*/
@@ -48,25 +48,25 @@ h2 { font-size: 1.3em;}
     transition: all 0.3s; -webkit-transition: all 0.3s;}
 
 /*PAGE WHOAMI*/
-#page-whoami { padding: 4% 0; background: #fff;}
+#page-whoami { padding: 4% 0; background: #fff; }
 #page-whoami .col-md-10 { font-size: 1.3em;}
 .page-whoami img { border-radius: 100%;}
 .page-whoami article { padding-top: 10%;}
 .page-whoami p { font-size: 1.1em;}
 
-/*PAGE HOBBIES*/
-#page-hobbies { padding: 4% 0; background: #f7f7f7;}
-.page-hobbies .col-md-6 { width: 49%; margin-left: 5px; margin-right: 5px; border: 3px solid rgba(0, 0, 0, 0.2); border-radius: 5em;
+/*PAGE INTERESTS*/
+#page-interests { padding: 4% 0; background: #FBFAF9; border-top: 1px solid #f5f2f0;}
+.page-interests .col-md-6 { width: 49%; margin-left: 5px; margin-right: 5px; border: 3px solid rgba(0, 0, 0, 0.2); border-radius: 5em;
     background-color: #f7f7f7;}
-.page-hobbies p { font-size: 1.1em; padding-left: 10%; padding-top: 10%;}
-.page-hobbies .col-md-4 { padding-top: 30px;}
-.page-hobbies .col-md-4 h2 { color: #96BF8C; padding-top: 30px; padding-bottom: 15px; font-family: 'Prociono', cursive;
+.page-interests p { font-size: 1.1em; padding-left: 10%; padding-top: 10%;}
+.page-interests .col-md-4 { padding-top: 30px;}
+.page-interests .col-md-4 h2 { color: #fc9423; padding-top: 30px; padding-bottom: 15px; font-family: 'Prociono', cursive;
     font-size: 2.3em; letter-spacing: -0.015em;}
-.page-hobbies #flexslider1 {  padding-top: 5%;}
+.page-interests #flexslider1 {  padding-top: 5%;}
 
 /*PAGE SKILLS*/
-#page-skills{ padding: 4% 0; background: #fff;}
-.page-skills h2{ color: #96BF8C; padding-bottom: 10px; padding-top: 10px;}
+#page-skills{ padding: 4% 0; background: #fff; border-top: 1px solid #f5f2f0;}
+.page-skills h2{ color: #fc9423; padding-bottom: 10px; padding-top: 10px;}
 .page-skills .spacer{ margin-bottom: 16px;}
 .page-skills .row{ padding-top: 6%;}
 .listskills{  padding-bottom: 2%;}
@@ -77,29 +77,30 @@ h2 { font-size: 1.3em;}
 .page-skills img{ transition: 1s;}
 
 /*PAGE CURRICULUM VITAE*/
-#page-curriculumvitae { padding: 4% 0; background: #f7f7f7; text-align: center;}
+#page-curriculumvitae { padding: 4% 0; background: #FBFAF9; text-align: center; border-top: 1px solid #f5f2f0;}
 .page-curriculumvitae .spacer{ margin-bottom: 19px;}
 .page-curriculumvitae .row{ padding-top: 3%;}
-.page-curriculumvitae h2{ color: #96BF8C; padding-bottom: 4%; padding-top: 4%;}
+.page-curriculumvitae h2{ color: #fc9423; padding-bottom: 4%; padding-top: 4%;}
 #element-to-animate{ opacity: 0;}
 
 /*PAGE ITALENT*/
-#page-italent { padding: 4% 0; background: #fff;}
+#page-italent { padding: 4% 0; background: #fff; border-top: 1px solid #f5f2f0;}
 .page-italent .spacer{ margin-bottom: 16px;}
 .page-italent .row{ padding-top: 3%;}
-.page-italent h2{ color: #96BF8C; padding-bottom: 10px; padding-top: 10px;}
+.page-italent h2{ color: #fc9423; padding-bottom: 10px; padding-top: 10px;}
 #italentanimated{ opacity: 0;}
 
-/*PAGE EXTRA */
-#page-extra { padding: 4% 0; background: #f7f7f7;}
-.page-extra .spacer{ margin-bottom: 19px;}
-.page-extra h2{ color: #96BF8C; padding-bottom: 4%; padding-top: 4%;}
+/*PAGE projects */
+#page-projects { padding: 4% 0; background: #FBFAF9; border-top: 1px solid #f5f2f0;}
+.page-projects .spacer{ margin-bottom: 19px;}
+.page-projects .row{padding-top: 3%;}
+.page-projects h2{ color: #fc9423; padding-bottom: 4%; padding-top: 4%;}
 
 /*PAGE TRANSPARENT*/
 #page-transparent { height: 170px;}
 
 /*PAGE FOOTER*/
-#page-footer { padding: 0% 0; background: #4D4D5C;}
+#page-footer { padding: 0% 0; background: #fc9423;}
 #page-footer p { color: #EFEFF6; font-size: 1.2em;}
 .page-footer iframe { height: 420px; width: 400px; float: right;}
 .page-footer .footerpadding{ padding-top: 0%; }
@@ -107,15 +108,15 @@ h2 { font-size: 1.3em;}
 .page-footer ul li{ display: inline;}
 /*PAGE FOOTER SOCIAL MEDIA BUTTONS*/
 .page-footer img { opacity: 0.4; padding-left: 2px;  padding-right: 2px; display: inline-block; vertical-align: middle; position: relative;
-    width: 45px;  height: 45px; border-radius: 50%; border: 2px solid dimgrey; background-clip: content-box; padding: 0px; transition: 1.5s;
+    width: 45px;  height: 45px; border-radius: 50%; border: 2px solid white; background-clip: content-box; padding: 0px; transition: 1s;
     color: #D7D0BE; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2),  0 1px 0 rgba(255, 255, 255, 0.2);}
-.buttons ul li .facebook:hover { opacity: 1; transition: all 1.5s; -webkit-transition: all 1s; color: white; transform: translateY(-1px) rotate(360deg);
+.buttons ul li .facebook:hover { opacity: 1; transition: all 1s; -webkit-transition: all 1s; color: white; transform: translateY(-1px) rotate(360deg);
     border: 2px solid #3b5998; background-color: #3b5998; }
-.buttons ul li .github:hover { opacity: 1; transition: all 1.5s; -webkit-transition: all 1s; color: white; transform: translateY(-1px) rotate(360deg);
+.buttons ul li .github:hover { opacity: 1; transition: all 1s; -webkit-transition: all 1s; color: white; transform: translateY(-1px) rotate(360deg);
     border: 2px solid #1D1C29; background-color: #1D1C29;}
-.buttons ul li .google:hover { opacity: 1; transition: all 1.5s; -webkit-transition: all 1s; color: white; transform: translateY(-1px) rotate(360deg);
+.buttons ul li .google:hover { opacity: 1; transition: all 1s; -webkit-transition: all 1s; color: white; transform: translateY(-1px) rotate(360deg);
     border: 2px solid #D50F25;  background-color: #D50F25;}
-.buttons ul li .soundcloud:hover { opacity: 1; transition: all 1.5s; -webkit-transition: all 1s; color: white; transform: translateY(-1px) rotate(360deg);
+.buttons ul li .soundcloud:hover { opacity: 1; transition: all 1s; -webkit-transition: all 1s; color: white; transform: translateY(-1px) rotate(360deg);
     border: 2px solid #ff7700; background-color: #ff7700;}
 
 /*SECTION UNIVERSAL AND OTHER UNIVERSAL ELEMENTS*/
