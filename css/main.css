@@ -110,8 +110,11 @@ h2 { font-size: 1.3em;}
 .page-footer img { opacity: 0.4; padding-left: 2px;  padding-right: 2px; display: inline-block; vertical-align: middle; position: relative;
     width: 45px;  height: 45px; border-radius: 50%; border: 2px solid white; background-clip: content-box; padding: 0px; transition: 1s;
     color: #D7D0BE; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2),  0 1px 0 rgba(255, 255, 255, 0.2);}
+.buttons ul { padding-left: 2.5%; }
 .buttons ul li .facebook:hover { opacity: 1; transition: all 1s; -webkit-transition: all 1s; color: white; transform: translateY(-1px) rotate(360deg);
     border: 2px solid #3b5998; background-color: #3b5998; }
+.buttons ul li .linkedin:hover { opacity: 1; transition: all 1s; -webkit-transition: all 1s; color: white; transform: translateY(-1px) rotate(360deg);
+    border: 2px solid #0077B5;  background-color: #0077B5;}
 .buttons ul li .github:hover { opacity: 1; transition: all 1s; -webkit-transition: all 1s; color: white; transform: translateY(-1px) rotate(360deg);
     border: 2px solid #1D1C29; background-color: #1D1C29;}
 .buttons ul li .google:hover { opacity: 1; transition: all 1s; -webkit-transition: all 1s; color: white; transform: translateY(-1px) rotate(360deg);
