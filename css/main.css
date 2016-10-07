@@ -56,9 +56,7 @@ h2 { font-size: 1.3em;}
 
 /*PAGE INTERESTS*/
 #page-interests { padding: 4% 0; background: #FBFAF9; border-top: 1px solid #f5f2f0;}
-.page-interests .col-md-6 { width: 49%; margin-left: 5px; margin-right: 5px; border: 3px solid rgba(0, 0, 0, 0.2); border-radius: 5em;
-    background-color: #f7f7f7;}
-.page-interests p { font-size: 1.1em; padding-left: 10%; padding-top: 10%;}
+.page-interests p { font-size: 1.1em; padding-left: 2%; padding-right: 2%; padding-top: 10%;}
 .page-interests .col-md-4 { padding-top: 30px;}
 .page-interests .col-md-4 h2 { color: #fc9423; padding-top: 30px; padding-bottom: 15px; font-family: 'Prociono', cursive;
     font-size: 2.3em; letter-spacing: -0.015em;}
@@ -71,7 +69,7 @@ h2 { font-size: 1.3em;}
 .page-skills .row{ padding-top: 6%;}
 .listskills{  padding-bottom: 2%;}
 /*PAGE SKILLS IMAGES*/
-.page-skills img{ border-radius: 1%; margin-top: 25px;}
+.page-skills img{ border-radius: 1%; margin-top: 20px;}
 .page-skills img:hover {  -webkit-transform: scale(1.02); -moz-transform: scale(1.02); -o-transform: scale(1.02); transform: scale(1.02);
     transition: all 0.5s; -webkit-transition: all 0.5s;}
 .page-skills img{ transition: 1s;}
@@ -178,6 +176,9 @@ input.error:focus, textarea.error:focus { border-color: #973d3d; color: #a35959;
 
     /*PAGE WHOAMI*/
     .page-whoami img {  width:300px; height:300px; }
+
+    /*PAGE INTERESTS*/
+    .page-interests p { font-size: 1.1em; padding-left: 0%; padding-right: 0%; padding-top: 10%;}
 
     /*PAGE CV*/
     .page-curriculumvitae .col-md-6 {   width: 97%;   margin-bottom: 10px; }

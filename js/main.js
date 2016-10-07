@@ -101,6 +101,6 @@ $(window).load(function () {
         touch: false,
         pauseOnHover: true,
         slideshowSpeed: 50000,
-        animationDuration: 600
+        animationDuration: 900
     });
 });
