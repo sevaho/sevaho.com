@@ -1,3 +1,8 @@
+//preload icon loader
+$(window).load(function() {
+  $(".se-pre-con").fadeOut("slow");;
+});
+
 //ONE PAGE NAVIGATION FOR DESKTOP
 $('#fixed-menu').onePageNav({
 
