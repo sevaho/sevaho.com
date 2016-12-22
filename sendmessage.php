@@ -1,4 +1,6 @@
 <?php
+
+//this file is not used
 $sendto = "sebastiaan.vanhoecke@hotmail.be";
 $usermail = $_POST['email'];
 $content = nl2br($_POST['msg']);
