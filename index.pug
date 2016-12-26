@@ -37,6 +37,7 @@ html(lang='en')
     //script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js')
     //script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js')
+    script(src='https://cdn.rawgit.com/kimmobrunfeldt/progressbar.js/1.0.1/dist/progressbar.js')
 
     script.
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -75,6 +76,8 @@ html(lang='en')
           li
             a(href='#page-interests') Interests
           li
+            a(href='#page-skills') Skills
+          li
             a(href='#page-curriculumvitae') Resume
           li
             a(href='#page-italent') Italent
@@ -92,17 +95,15 @@ html(lang='en')
           li
             a(href='#page-interests') Interests
           li
+            a(href='#page-skills') Skills
+          li
             a(href='#page-curriculumvitae') Resume
           li
             a(href='#page-italent') Italent
           li
             a(href='#page-projects') Projects
           li
-            a(href='#page-footer')#contactblauw Contact
-          li
-            a(href='index_nl.html') NL
-          li
-            a(href='index_fr.html') FR
+            a(href='#page-footer') Contact
 
 
       section.page-whoami#page-whoami
@@ -130,14 +131,14 @@ html(lang='en')
               .textblockhide
                 h2 Linux & Foss
                 .subspacer.centered
-                p My main interest is GNU/Linux: the kernel, servers, playing with ARM devices or using it as my daily drive. I'm a also big enthusiast of open source and hacking software.
+                p My main interest is GNU/Linux: the kernel, servers, playing with ARM devices or using it as my daily drive. I am a also big enthusiast of open source and hacking software.
             .col-md-4
               .textblock
                 h2 Networking & Security
               .textblockhide
                 h2 Networking & Security
                 .subspacer.centered
-                p I always had a keen interest in the internet, how does it work, who controls it, and so on. At home I have build a small network existing out of a couple servers.
+                p I always had a keen interest in the internet, how does it work, who controls it, and so on. At home I have built a small network existing out of a couple servers.
             .col-md-4
               .textblock
                 h2 Web Design & Development
@@ -145,7 +146,7 @@ html(lang='en')
                 h2 Web Design & Development
                 .subspacer.centered
                 p 
-                  | Building software on the web is always fun, you can use it anywhere you want. I like to design or make a beautifull website. I made this website and 
+                  | Building software on the web is always fun, you can use it anywhere you want. I like to design or make a beautiful website. I made this website and 
                   a(target='_blank',href='http://ttcteneramonda.be') ttcteneramonda
                   |  from scratch.
             .col-md-4
@@ -154,7 +155,7 @@ html(lang='en')
               .textblockhide
                 h2 Systems
                 .subspacer.centered
-                p But how does this work?! That's a question I ask myself a lot. I want to know how something works, try to build it myself and make it better.
+                p But how does this work?! That is a question I ask myself a lot. I want to know how something works, try to build it myself and make it better.
             .col-md-4
               .textblock
                 h2 AI
@@ -168,8 +169,43 @@ html(lang='en')
               .textblockhide
                 h2 Red Team
                 .subspacer.centered
-                p It started with watching Mr Robot, since then I want to know everything about pentesting, hardening systems and white hat hacking.
+                p It started with watching Mr. Robot, since then I want to know everything about pentesting, hardening systems and white hat hacking.
             
+      section.page-skills#page-skills
+        .container
+          .section-title Skills
+          .spacer.centered
+          .row
+            .col-md-2
+            .col-md-8
+              #javascriptSkill.circleSkills
+              #htmlcssSkill.circleSkills
+              #cSkill.circleSkills
+              #pythonSkill.circleSkills
+            .col-md-2
+          .row
+            .col-md-2
+            .col-md-8
+              #phpSkill.circleSkills
+              #bashSkill.circleSkills
+              #javaSkill.circleSkills
+              #csharpSkill.circleSkills
+            .col-md-2
+          .row
+            .col-md-3
+            .col-md-6
+              
+            .col-md-3
+          .row
+            .col-md-3
+            .col-md-6
+              h2 other
+              p CCNA, Docker, LXC, Vagrant, Pentesting, Virtualization, Continuous Integration, Linux-Windows-BSD server knowledge, Server Security.
+              h2 Soft skills
+              p I have a realistic logical mind which can quickly adapt to change. I am a creative, curious, out-of-the-box thinking person, who is eager to learn new things.
+            .col-md-3
+          
+
       section.page-curriculumvitae#page-curriculumvitae
         .container
           .section-title Curriculum Vitae
@@ -179,8 +215,8 @@ html(lang='en')
             .col-md-6
               h2 My resume
               .subspacer.centered
-              a(href='CV_Sebastiaan_Van_Hoecke.pdf',download).btn.btn-primary download 
-                span.glyphicon.glyphicon-download-alt
+              a(href='CV_Sebastiaan_Van_Hoecke.pdf',download)
+                img(src='img/resumePdf.png',width='65',height='65')
               p or
               a(target='_blank',href='cv.html') View in browser
             .col-md-3
@@ -195,7 +231,7 @@ html(lang='en')
             .col-md-6
               h2 What is Italent?
               .subspacer.centered
-              p.fadeinonscroll At school we have a course named Italent, it's a course that helps us knowing ourselves, what we want, who we are and what we are able to do. We analyze this on the base of SWOT analysis, personality tests like MBTI, Ofman, DISC and more. the main focus is discovering our talents and to get the most out of it. Other good things about this course are that we learn to be confident, independent and to build a personal portfolio.
+              p.fadeinonscroll At school we have a course named Italent, it's a course that helps us knowing ourselves, what we want, who we are and what we are able to do. We analyze this on the base of SWOT analysis, personality tests like MBTI, Ofman, DISC and more. The main focus is discovering our talents and to get the most out of it. Other good things about this course are that we learn to be confident, independent and to build a personal portfolio.
               h2.secondh2tagmargintop Personality tests and reports
               .subspacer.centered
               p.fadeinonscroll You can read all my personality tests and reports here, it's all in Dutch:
@@ -212,7 +248,7 @@ html(lang='en')
               .col-md-3
                 .animatedimage
                   h2 Home servers
-                  p At home I have a couple of servers, but I mainly configure my Raspberry Pi 3B. This site for example is hosted on it and also my markdown platform. Server hardening is one of my favourite things to do. Next to hosting and securing, the RPI is also used as FTP, datacenter, ssh tunnel and vpn. The markdown platform is made to make my markdown guides and cheatsheets more easily to read and navigate trough.
+                  p At home I have a couple of servers, but I mainly configure my Raspberry Pi 3B. This website for example is hosted on it and also my markdown platform. Server hardening is one of my favourite things to do. Next to hosting and securing, the RPI is also used as FTP, datacenter, ssh tunnel and vpn. The markdown platform is made to make my markdown guides and cheat sheets more easily to read and navigate trough.
                   a(target='_blank',href='https://sevaho.com/github') MarkdownPlatform
                 img(src='img/markdownplatform.png')
               .col-md-3
@@ -223,7 +259,7 @@ html(lang='en')
               .col-md-3
                 .animatedimage
                   h2 IGY
-                  p IGY or 'I GUIDE YOU' is a project still in it's earliest fase. IGY will be an AI search engine with full speak capabilities. The goal is to be able to browse the internet with only your voice.
+                  p IGY or 'I GUIDE YOU' is a project still in it's earliest phase. IGY will be an AI search engine with full speak capabilities. The goal is to be able to browse the internet with only your voice.
                 img(src='img/igy.png')
               .col-md-3
                 .animatedimage
@@ -252,9 +288,11 @@ html(lang='en')
               .col-md-3
                 .notanimatedimagemobile
                   h2 Limonito
-                  p Containerization will change the server industry forever, but with this new technology comes great responsibilty. Limonito aka. Linux-containers monitoring tool will as the name says monitor containers.
+                  p Containerization will change the server industry forever, but with this new technology comes great responsibility. Limonito aka. Linux-containers monitoring tool will as the name says monitor containers.
                 img(src='img/limonito.png')
-          
+
+      section.page-end#page-end
+         
       section.page-footer#page-footer
         .container
           .row
@@ -287,10 +325,9 @@ html(lang='en')
                 .alerttrue.centered Thanks for stopping to say Hello!
 
 
-
-
     script(src='js/typed.js')
     script.
+  
 
       $('#arrow').hide();
       $('.fadeinonscroll').css("opacity", "0");
@@ -319,6 +356,7 @@ html(lang='en')
         });
       }
 
+      counter1 = true;
       //scroll animation - fadein & change navbar color
       $(window).scroll(function(){
         $('.fadeinonscroll').each( function(i){
@@ -334,10 +372,25 @@ html(lang='en')
           $('navbar').removeClass('navbarfixed');
         }
         $('section').each(function() {
-          if($(window).scrollTop() >= $(this).offset().top-45 ){
+          if($(window).scrollTop() >= $(this).offset().top-95 ){
             var id = $(this).attr('id');
-            $('navbar ul li a').css('color','#416fb3');
-            $('navbar ul li a[href*="'+id+'"]').css('color','#04172f');
+            $('navbar ul li a').css('color','#555555');
+            $('navbar ul li a[href*="'+id+'"]').css('color','#cd660e');
+          }
+        });
+        $('.page-skills').each( function(i){
+          var bottom_of_object = $(this).offset().top + $(this).outerHeight() +50;
+          var bottom_of_window = $(window).scrollTop() + $(window).height();
+          if( bottom_of_window > bottom_of_object && counter1 != false ){
+            new ProgressBar.Circle('#javascriptSkill', { strokeWidth: 6, easing: 'easeInOut', duration: 2400, color: '#f2e06d', trailColor: '#eee', trailWidth: 1, svgStyle: null, text:{ value: 'Javascript'}}).animate(0.85);
+            new ProgressBar.Circle(htmlcssSkill, { strokeWidth: 6, easing: 'easeInOut', duration: 2400, color: '#eb612f', trailColor: '#eee', trailWidth: 1, svgStyle: null, text:{ value: 'HTML & CSS'} }).animate(0.95);
+            new ProgressBar.Circle(bashSkill, { strokeWidth: 6, easing: 'easeInOut', duration: 2400, color: '#99e063', trailColor: '#eee', trailWidth: 1, svgStyle: null, text:{ value: 'Shell'} }).animate(0.86);
+            new ProgressBar.Circle(javaSkill, { strokeWidth: 6, easing: 'easeInOut', duration: 2400, color: '#bd8320', trailColor: '#eee', trailWidth: 1, svgStyle: null, text:{ value: 'Java'} }).animate(0.80);
+            new ProgressBar.Circle(pythonSkill, { strokeWidth: 6, easing: 'easeInOut', duration: 2400, color: '#4286b3', trailColor: '#eee', trailWidth: 1, svgStyle: null, text:{ value: 'Python'} }).animate(0.72);
+            new ProgressBar.Circle(phpSkill, { strokeWidth: 6, easing: 'easeInOut', duration: 2400, color: '#6273a6', trailColor: '#eee', trailWidth: 1, svgStyle: null, text:{ value: 'PHP'} }).animate(0.73);
+            new ProgressBar.Circle(cSkill, { strokeWidth: 6, easing: 'easeInOut', duration: 2400, color: '#666666', trailColor: '#eee', trailWidth: 1, svgStyle: null, text:{ value: 'C'} }).animate(0.60);
+            new ProgressBar.Circle(csharpSkill, { strokeWidth: 6, easing: 'easeInOut', duration: 2400, color: '#119400', trailColor: '#eee', trailWidth: 1, svgStyle: null, text:{ value: 'C#, .NET'} }).animate(0.70);
+            counter1 = false;
           }
         });
       });
@@ -354,7 +407,7 @@ html(lang='en')
           });
 
         $('navbar ul li a').hover(function(){
-          $('navbar ul li a').css('opacity','0.5'); 
+          $('navbar ul li a').css('opacity','0.4'); 
           $(this).css('opacity','1');
         }, function(){
           $('navbar ul li a').css('opacity','1'); 
