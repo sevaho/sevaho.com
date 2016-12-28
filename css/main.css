@@ -168,7 +168,7 @@ navbar ul li a:focus { text-decoration: none; color: ##416fb3;}
 
   /*PAGE WELCOME*/
   .page-welcome { position: relative; height: 100vh; transition: height 999999s; }  
-  .page-welcome #terminal { height: 425px; max-width: 95%;  background-image: url('../img/terminalMobile.png'); margin-top: 17%; padding-left: 3%; padding-right: 3%; }
+  .page-welcome #terminal { height: 70%; max-width: 95%;  background-image: url('../img/terminalMobile.png'); margin-top: 17%; padding-left: 3%; padding-right: 3%; }
   .page-welcome #terminal #terminalText {font-size: 0.9em; top: 5.4%; }
   .page-welcome #terminal #arrow { top: 91%; left: 45%;}
   .page-welcome #terminal #terminalTitle { padding-top: 3%; }
