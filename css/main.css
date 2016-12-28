@@ -174,7 +174,7 @@ navbar ul li a:focus { text-decoration: none; color: ##416fb3;}
   .page-welcome #terminal #terminalTitle { padding-top: 3%; }
 
   .page-whoami img { display: none; }
-  .page-whoami .container { margin-bottom: 7%; }
+  .page-whoami .container { padding-bottom: 7%; }
 
   .page-interests .container { width: auto; height: auto; }
   .page-interests .textblock{ display: none; }
