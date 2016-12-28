@@ -202,7 +202,7 @@ html(lang='en')
               h2 other
               p CCNA, Docker, LXC, Vagrant, Pentesting, Virtualization, Continuous Integration, Linux-Windows-BSD server knowledge, Server Security.
               h2 Soft skills
-              p I have a realistic logical mind which can quickly adapt to change. I am a creative, curious, out-of-the-box thinking person, who is eager to learn new things.
+              p I have a realistic logical mind which can quickly adapt to change. I am a creative, curious, out-of-the-box thinking person, who is determined and eager to learn new things.
             .col-md-3
           
 
@@ -379,7 +379,7 @@ html(lang='en')
           }
         });
         $('.page-skills').each( function(i){
-          var bottom_of_object = $(this).offset().top + $(this).outerHeight() +50;
+          var bottom_of_object = $(this).offset().top + $(this).outerHeight() -200;
           var bottom_of_window = $(window).scrollTop() + $(window).height();
           if( bottom_of_window > bottom_of_object && counter1 != false ){
             new ProgressBar.Circle('#javascriptSkill', { strokeWidth: 6, easing: 'easeInOut', duration: 2400, color: '#f2e06d', trailColor: '#eee', trailWidth: 1, svgStyle: null, text:{ value: 'Javascript'}}).animate(0.85);

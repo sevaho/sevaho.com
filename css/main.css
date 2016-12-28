@@ -161,16 +161,16 @@ navbar ul li a:focus { text-decoration: none; color: ##416fb3;}
   .page-interests .col-md-4 , .col-md-6 { height: auto; }
 }
 
-/*MOBILE AND TABLET VERSION LESS THAN 900PX*/
-@media only screen and (max-width: 900px){
+/*MOBILE AND TABLET VERSION LESS THAN 1000PX*/
+@media only screen and (max-width: 1000px){
 
   html, body { padding-top: 0px;}
 
   /*PAGE WELCOME*/
-  .page-welcome { position: relative; height: 550px; }  
-  .page-welcome #terminal { height: 425px; max-width: 350px;  background-image: url('../img/terminal2.png'); margin-top: 17%; padding-left: 3%; padding-right: 3%; }
+  .page-welcome { position: relative; height: 100vh; transition: height 999999s; }  
+  .page-welcome #terminal { height: 425px; max-width: 95%;  background-image: url('../img/terminalMobile.png'); margin-top: 17%; padding-left: 3%; padding-right: 3%; }
   .page-welcome #terminal #terminalText {font-size: 0.9em; top: 5.4%; }
-  .page-welcome #terminal #arrow { top: 91%;}
+  .page-welcome #terminal #arrow { top: 91%; left: 45%;}
   .page-welcome #terminal #terminalTitle { padding-top: 3%; }
 
   .page-whoami img { display: none; }
