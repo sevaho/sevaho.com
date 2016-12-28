@@ -89,7 +89,7 @@ navbar ul li a:focus { text-decoration: none; color: ##416fb3;}
 .page-interests a { color: #89CFF0; }
 
 /*PAGE SKILLS*/
-.page-skills { background: #f6f8f5; text-align: center; border-top: 1px solid #f5f2f0;}
+.page-skills { background: #f6f8f5; text-align: center; border-top: 1px solid #f5f2f0; padding-bottom: 3.5%;}
 .page-skills .circleSkills { width: 100px; height: 100px; display: inline; padding: 80px 0px 0px 0px; margin-right: 5%; margin-left: 5%;}
 .page-skills .circleSkills > svg { width: 100px;}
 .page-skills .row { margin-bottom: 2%;}
