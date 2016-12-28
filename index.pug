@@ -331,7 +331,6 @@ html(lang='en')
 
       $('#arrow').hide();
       $('.fadeinonscroll').css("opacity", "0");
-      alert(screen.width);
 
       $(window).load(function(){
         $("#loader-wrapper").fadeOut("slow");
@@ -382,7 +381,7 @@ html(lang='en')
         $('.page-skills').each( function(i){
           var bottom_of_object = $(this).offset().top + $(this).outerHeight() -200;
           var bottom_of_window = $(window).scrollTop() + $(window).height();
-          if( bottom_of_window > bottom_of_object && counter1 != false ){
+          if( bottom_of_window > bottom_of_object && counter1 != false || screen.width < 900 && counter1 != false ){
             new ProgressBar.Circle('#javascriptSkill', { strokeWidth: 6, easing: 'easeInOut', duration: 2400, color: '#f2e06d', trailColor: '#eee', trailWidth: 1, svgStyle: null, text:{ value: 'Javascript'}}).animate(0.85);
             new ProgressBar.Circle(htmlcssSkill, { strokeWidth: 6, easing: 'easeInOut', duration: 2400, color: '#eb612f', trailColor: '#eee', trailWidth: 1, svgStyle: null, text:{ value: 'HTML & CSS'} }).animate(0.95);
             new ProgressBar.Circle(bashSkill, { strokeWidth: 6, easing: 'easeInOut', duration: 2400, color: '#99e063', trailColor: '#eee', trailWidth: 1, svgStyle: null, text:{ value: 'Shell'} }).animate(0.86);
