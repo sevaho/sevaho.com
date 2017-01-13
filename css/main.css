@@ -101,6 +101,8 @@ navbar ul li a:focus { text-decoration: none; color: ##416fb3;}
 .page-curriculumvitae .section-title { color: #ddd; }
 .page-curriculumvitae .col-md-6 { padding-bottom: 8%; }
 .page-curriculumvitae p { margin: 5% 0% 5% 0%; color: #ccc; }
+.page-curriculumvitae img { opacity: 0.8;  -webkit-transition:all 0.7s; -moz-transition:all 0.7s; -o-transition:all 0.7s; transition:all 0.7s;  }
+.page-curriculumvitae img:hover { opacity: 1; }
 .page-curriculumvitae a { color: #89CFF0; }
 .page-curriculumvitae .btn-primary { background-color: #b1daec; color: #333; }
 
