@@ -8,4 +8,5 @@ TODO:
 
 - Better tablet support.
 - Parallex effect on scroll (page-welcome section should scroll slowly up when scrolling down.)
+- Resume as man page.
 
