@@ -144,7 +144,8 @@ navbar ul li a:focus { text-decoration: none; color: ##416fb3;}
 .buttons #soundcloud:hover { opacity: 1; transition: all 1s; -webkit-transition: all 1s; color: white; transform: translateY(-1px) rotate(360deg); border: 2px solid #ff7700; background-color: #ff7700; }
 
 /*CONTACT FORM*/
-.page-footer .alerttrue {display: none; height: 70px; margin-top: 19%; text-align: center; border: 2px solid #d5e8c5; margin-bottom: 20%; background-color: #dff0d8;  border-radius: 0.22em; color: #568353; padding-top: 5%; font-size: 1.1em; }
+.page-footer .alerttrue {display: none; margin-top: 19%; text-align: center; border: 2px solid #d5e8c5; margin-bottom: 20%; background-color: #dff0d8;  border-radius: 0.22em; color: #568353; padding-top: 5%; padding-bottom: 5%; font-size: 1.1em; }
+.page-footer .alertfalse {display: none; margin-top: 19%; padding-bottom: 5%; text-align: center; border: 2px solid #973d3d; margin-bottom: 20%; background-color: #f0bebe;  border-radius: 0.22em; color: #a35959; padding-top: 5%; font-size: 1.1em; }
 .page-footer .error { border-color: #973d3d; border-style: solid; background: #f0bebe; color: #a35959; }
 .page-footer #form { width: 100%; }
 .page-footer form { width: 100%; text-align: center; margin-top: 10%; height: 100%; border-radius: 50%; }

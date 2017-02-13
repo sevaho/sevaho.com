@@ -324,6 +324,7 @@ html(lang='en')
                   .field
                     button(type='submit',value='Send') Submit
                 .alerttrue.centered Thanks for stopping to say Hello!
+                .alertfalse.centered Please send me an email via another email service to sebastiaan.vanhoecke@hotmail.be. I experience troubles with formspree, looking out for something new.
 
 
     script(src='js/typed.js')
@@ -457,7 +458,7 @@ html(lang='en')
             if (message.val().length < 4){ $('#message').addClass('error'); } else { $('#message').removeClass('error'); }
             if (validateEmail(email.val()) == true && name.val().length > 3 && message.val().length > 3){
               $('#contactform').fadeOut(500);
-              $('.alerttrue').delay(500).fadeIn(800);
+              $('.alertfalse').delay(500).fadeIn(800);
               $.ajax({
                 method:'POST',
                 url:'https://formspree.io/sebastiaan.vanhoecke@hotmail.be',
@@ -468,11 +469,11 @@ html(lang='en')
                 },
                 datatype:'json',
                 success:function(){
-                  console.log('Mail succesfully send!'); 
+                  console.log('Ajax call made!'); 
                 }
               });
-              e.preventDefault();
-              $(this).get(0).reset();
+              //e.preventDefault();
+              //$(this).get(0).reset();
             }
             e.preventDefault();
           });
