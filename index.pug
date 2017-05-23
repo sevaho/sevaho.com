@@ -82,7 +82,7 @@ html(lang='en')
           li
             a(href='#page-italent') Italent
           li
-            a(href='#page-projects') Projects
+            a(href='#page-thesis') Thesis
           li
             a(href='#page-footer') Contact
 
@@ -101,7 +101,7 @@ html(lang='en')
           li
             a(href='#page-italent') Italent
           li
-            a(href='#page-projects') Projects
+            a(href='#page-thesis') Thesis
           li
             a(href='#page-footer') Contact
 
@@ -240,57 +240,14 @@ html(lang='en')
             .col-md-3
 
 
-      section.page-projects#page-projects
+      section.page-thesis#page-thesis
         .container
-          .section-title Projects
+          .section-title Thesis
           .spacer.centered
           .row
-            .desktop
-              .col-md-3
-                .animatedimage
-                  h2 Home servers
-                  p At home I have a couple of servers, but I mainly configure my Raspberry Pi 3B. This website for example is hosted on it and also my markdown platform. Server hardening is one of my favourite things to do. Next to hosting and securing, the RPI is also used as FTP, datacenter, ssh tunnel and vpn. The markdown platform is made to make my markdown guides and cheat sheets more easily to read and navigate trough.
-                  a(target='_blank',href='https://sevaho.com/platform') MarkdownPlatform
-                img(src='img/markdownplatform.png')
-              .col-md-3
-                .animatedimage
-                  h2 Pentesting
-                  p One of my goals is to become an ethical hacker, pentester and security expert. With this goal in mind I try to build my own penetration testing framework where I automate tests and deploy own made tools.
-                img(src='img/pentester.jpg')
-              .col-md-3
-                .animatedimage
-                  h2 IGY
-                  p IGY or 'I GUIDE YOU' is a project still in it's earliest phase. IGY will be an AI search engine with full speak capabilities. The goal is to be able to browse the internet with only your voice.
-                img(src='img/igy.png')
-              .col-md-3
-                .animatedimage
-                  h2 Myos
-                  p Building things from scratch is always a hard task, but hard does not mean not fun. I am trying to build an operating system from scratch, the purpose is to obtain a keen eye in how things work. 
-                img(src='img/os.jpg')
+            .col-md-12
+              h2 Coming 09/2017
 
-            //Need to fix this, duplicate code sux balls.
-            .mobile
-              .col-md-3
-                .notanimatedimagemobile
-                  h2 Home servers
-                  p At home I have a couple of servers, but I mainly configure my Raspberry Pi 3B. This site for example is hosted on it and also my markdown platform. Server hardening is one of my favourite things to do. Next to hosting and securing, the RPI is also used as FTP, mediacenter, ssh tunnel and vpn. The markdown platform is made to make my markdown guides and cheatsheets more easily to read and navigate trough.
-                  a(target='_blank',href='https://sevaho.com/platform') MarkdownPlatform
-                img(src='img/markdownplatform.png')
-              .col-md-3
-                .notanimatedimagemobile
-                  h2 Pentesting
-                  p One of my goals is to become an ethical hacker, pentester and security expert. With this goal in mind I try to build my own penetration testing framework where I automate tests and deploy own made tools.
-                img(src='img/pentester.jpg')
-              .col-md-3
-                .notanimatedimagemobile
-                  h2 IGY
-                  p IGY or 'I GUIDE YOU' is a project still in it's earliest fase. IGY will be an AI search engine with full speak capabilities. The goal is to be able to browse the internet with only your voice.
-                img(src='img/igy.png')
-              .col-md-3
-                .notanimatedimagemobile
-                  h2 Myos
-                  p Building things from scratch is always a hard task, but hard does not mean not fun. I am trying to build an operating system from scratch, the purpose is to obtain a keen eye in how things work. 
-                img(src='img/os.jpg')
 
       section.page-end#page-end
          
@@ -345,7 +302,7 @@ html(lang='en')
       function terminal(){
         $(function(){
           $(".typed").typed({
-            strings: [" Hello there."," egrep -i 'Sebastiaan' | whoami <br> <br>. <br> ├── Student Applied Informatics @ Ghent<br>├── Linux enthusiast<br> │   ├──  Security<br> │   ├── Foss <br> │   ├── zsh,vim + tmux all the way<br> │   └── Ethical hacker<br>  ├──  Networking<br> ├──  Developer <br>  └──  ... "],
+            strings: [" Hello there."," egrep -i 'Sebastiaan' | whoami <br> <br>. <br> ├── Student Applied Informatics @ Ghent<br>├── Linux enthusiast<br> │   ├──  Security<br> │   ├── Foss <br> │   ├── desktop ricing <br> │   ├── kernel hacking <br> │   ├── zsh,vim + i3 all the way<br> │   └── Ethical hacker<br>  ├──  Networking<br> ├──  Developer <br>  └──  ... "],
             typeSpeed: 10,
             backDelay: 150,
             cursorChar: "█",
@@ -389,7 +346,7 @@ html(lang='en')
             new ProgressBar.Circle(bashSkill, { strokeWidth: 6, easing: 'easeInOut', duration: 2400, color: '#89da49', trailColor: '#eee', trailWidth: 1, svgStyle: null, text:{ value: 'Shell'} }).animate(0.81);
             new ProgressBar.Circle(javaSkill, { strokeWidth: 6, easing: 'easeInOut', duration: 2400, color: '#bd8320', trailColor: '#eee', trailWidth: 1, svgStyle: null, text:{ value: 'Java'} }).animate(0.75);
             new ProgressBar.Circle(pythonSkill, { strokeWidth: 6, easing: 'easeInOut', duration: 2400, color: '#4286b3', trailColor: '#eee', trailWidth: 1, svgStyle: null, text:{ value: 'Python'} }).animate(0.67);
-            new ProgressBar.Circle(phpSkill, { strokeWidth: 6, easing: 'easeInOut', duration: 2400, color: '#6273a6', trailColor: '#eee', trailWidth: 1, svgStyle: null, text:{ value: 'PHP'} }).animate(0.70);
+            new ProgressBar.Circle(phpSkill, { strokeWidth: 6, easing: 'easeInOut', duration: 2400, color: '#6273a6', trailColor: '#eee', trailWidth: 1, svgStyle: null, text:{ value: 'PHP'} }).animate(0.83);
             new ProgressBar.Circle(cSkill, { strokeWidth: 6, easing: 'easeInOut', duration: 2400, color: '#666666', trailColor: '#eee', trailWidth: 1, svgStyle: null, text:{ value: 'C'} }).animate(0.57);
             new ProgressBar.Circle(csharpSkill, { strokeWidth: 6, easing: 'easeInOut', duration: 2400, color: '#119400', trailColor: '#eee', trailWidth: 1, svgStyle: null, text:{ value: 'C#, .NET'} }).animate(0.65);
             counter1 = false;

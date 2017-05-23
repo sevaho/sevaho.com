@@ -111,22 +111,14 @@ navbar ul li a:focus { text-decoration: none; color: ##416fb3;}
 .page-italent p { text-align: center;} 
 .page-italent a { display:block;text-align:center } 
 .page-italent .secondh2tagmargintop { margin-top: 13%; } 
-.page-italent .col-md-6 { padding-bottom: 8%; } /*PAGE-PROJECTS*/
+.page-italent .col-md-6 { padding-bottom: 8%; } /*PAGE-thesis*/
 
-/*PAGE_PROJECTS*/
-.page-projects .mobile { display: none; }
-.page-projects { background: #272b33;  border-top: 1px solid #f5f2f0; width: 100%;}
-.page-projects .section-title { margin-top: 4%; color: #ddd; }
-.page-projects .spacer { margin-top: 2%; }
-.page-projects .container { width: 100%; padding-bottom: 5%; }
-.page-projects .col-md-3 { padding: 0% 0% 0% 0%; overflow: hidden; } 
-.page-projects .col-md-3:hover { padding: 0% 0% 0% 0%; } 
-.page-projects img { max-height: 455px; height: auto; min-width: 100%;   -moz-transition: all 0.9s; -webkit-transition: all 0.9s;  transition: all 0.6s; } 
-.page-projects h2 { margin-top: 30%; }
-.page-projects p { color:#eee; padding-top: 5%; padding-left: 50px; padding-right: 50px; }
-.page-projects a { color: #89CFF0; }
-.page-projects .zoomin {-moz-transform: scale(1.1); -webkit-transform: scale(1.1); transform: scale(1.1); } 
-.page-projects .animatedimage { width: 100%; height: 100%; z-index:1; position:absolute; opacity: 0; text-align: center; }
+/*PAGE_thesis*/
+.page-thesis .mobile { display: none; }
+.page-thesis { background: #272b33;  border-top: 1px solid #f5f2f0;}
+.page-thesis .section-title { margin-top: 4%; color: #ddd; }
+.page-thesis .spacer { margin-top: 2%; }
+.page-thesis { padding-bottom: 12%; } /*PAGE-thesis*/
 
 /*PAGE FOOTER*/
 .page-footer .col-md-6 { padding-left: 7%; }
@@ -185,13 +177,6 @@ navbar ul li a:focus { text-decoration: none; color: ##416fb3;}
   .page-interests .col-md-4 , .col-md-6 { height: auto; }
 
   .page-italent p { padding: 0% 5% 0% 5%; }
-
-  .page-projects .desktop { display: none; }
-  .page-projects .mobile { display: inline; }
-  .page-projects img { opacity: 0.15; }
-  .page-projects .notanimatedimagemobile { width: 100%; height: 100%; z-index:1; position:absolute; opacity: 1; text-align: center; }
-  .page-projects p { color: #ccc; }
-.page-projects .col-md-3 { border-top: 0px solid #354457; border-bottom: 0px solid #354457; } 
 
   .page-footer .col-md-6 { padding-left: 0%; }
   .page-footer { height: 100%;}
